@@ -354,7 +354,7 @@ $config{build_metadata} =
 $config{shlib_version} = $version{SHLIB_VERSION} // 'unknown';
 $config{release_date} = $version{RELEASE_DATE} // 'xx XXX xxxx';
 
-$config{version} = "$config{major}.$config{minor}.$config{patch}";
+$config{version} = "$config{major}.$config{minor}.$config{patch}-mengxi";
 $config{full_version} = "$config{version}$config{prerelease}$config{build_metadata}";
 
 die "erroneous version information in VERSION.dat: ",
